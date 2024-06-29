@@ -1,0 +1,32 @@
+/* * {
+  font-family: "Roboto", sans-serif;
+} */
+
+body {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+h4 {
+  font-weight: 400;
+}
+
+.table {
+  margin: 0 auto; /* center the table */
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table th,
+.table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+/* .th1 {
+  background-color: #343a40;
+  color: #fff;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+} */

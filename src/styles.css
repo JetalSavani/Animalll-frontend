@@ -1,0 +1,186 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.image_wrapper {
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.65);
+
+  /* center overlay text */
+  text-align: center;
+}
+.description {
+  display: inline;
+}
+.overlay_2 {
+  /*   top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0; */
+  inset: 0;
+}
+.overlay .text-welcome {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 500;
+  margin: 0;
+  margin-top: 280px;
+}
+.description {
+  color: #fff;
+  /* font-size: 60px; */
+  font-weight: 500;
+  margin: 0;
+}
+header {
+  height: 100px;
+}
+svg {
+  height: 25px;
+  width: 25px;
+}
+li svg {
+  height: 17px;
+  width: 17px;
+}
+.swal2-cancel {
+  background-color: black !important;
+  color: white !important;
+}
+.payment {
+  border: 1px solid #f2f2f2;
+  max-height: 270px;
+  border-radius: 20px;
+  background: #fff;
+  max-width: 500px;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+.payment_header {
+  background: #2b8f69;
+  padding: 20px;
+  border-radius: 20px 20px 0px 0px;
+}
+.payment-height {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(../public/assets/img/back-password.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+.check {
+  margin: 0px auto;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background: #fff;
+  text-align: center;
+}
+
+.check i {
+  color: green;
+  vertical-align: middle;
+  line-height: 50px;
+  font-size: 30px;
+}
+
+.content {
+  text-align: center;
+}
+
+.content h1 {
+  font-size: 25px;
+  padding-top: 25px;
+}
+
+.content a {
+  width: 200px;
+  height: 45px;
+  color: #fff;
+  border-radius: 30px;
+  padding: 5px 10px;
+  background: #2b8f69;
+  transition: all ease-in-out 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  border: 1px solid white;
+}
+
+.content a:hover {
+  text-decoration: none;
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0) !important;
+  border-color: #2b8f69;
+}
+.button-resend button {
+  font-weight: 600;
+  border: none;
+  padding: 14px 25px;
+  font-size: 14px;
+  border-radius: 0;
+  line-height: initial;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+.up-arrow {
+  position: static;
+  bottom: 0;
+}
+.arrow-up {
+  position: fixed;
+  width: 100%;
+  left: 95%;
+  bottom: 50px;
+  height: 30px;
+  z-index: 1;
+  font-size: 3rem;
+  cursor: pointer;
+  color: #2b8f69;
+}
+.arrow-up svg {
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  animation: ripple 0.7s linear infinite;
+  padding: 11px;
+}
+@keyframes ripple {
+  0% {
+    box-shadow: 0 0 0 0 rgba(2, 207, 170, 0.3),
+      0 0 0 10px rgba(2, 207, 170, 0.3), 0 0 0 20px rgba(2, 207, 170, 0.3);
+  }
+  100% {
+    box-shadow: 0 0 0 10px rgba(2, 207, 170, 0.3),
+      0 0 0 20px rgba(2, 207, 170, 0.3), 0 0 0 30px rgba(2, 207, 170, 0);
+  }
+}
